@@ -38,7 +38,3 @@ Or to run using a cluster that supports ```prun``` and ```GPU``` :
 ```console
 prun -np 1 -native '-C TitanX --gres=gpu:1' python Trbrid.py/Tribrid_pos.py
 ```
-
-### The full Templates that we used is in "./Post_Process/Templates_Count.ipynb"
-
-
